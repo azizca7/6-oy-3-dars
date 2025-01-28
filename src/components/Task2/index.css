@@ -1,0 +1,13 @@
+.card {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: aqua;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: rgb(11, 9, 9);
+}
