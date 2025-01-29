@@ -14,7 +14,11 @@ function Task8() {
   };
 
   const deleteTodo = (index) => {
-    const updatedTodos = todos.filter((todo, i) => i !== index);
+    const updatedTodos = todos.filter((todo, i) => {
+      if(i !== index){
+        return true
+      }
+    });
     setTodos(updatedTodos);
   };
 

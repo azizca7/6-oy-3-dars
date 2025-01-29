@@ -4,8 +4,12 @@ function Task10() {
   const [isOn, setIsOn] = useState(false);
 
   const handleClick = () => {
-    setIsOn((check) => !check);
-  };
+    setIsOn((check) => {
+    if(!check){
+       return true
+}
+  });
+}
 
   return (
     <>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./index.css";
 function Task2() {
-  const [color, setColor] = useState([
+  const [color] = useState([
     "red",
     "green",
     "gray",

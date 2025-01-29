@@ -1,15 +1,19 @@
 import React, { useState } from "react";
-import './index.css'
+import "./index.css";
 function Task9() {
-  const values = [10, 20, 30, 40]; 
+  const values = [10, 20, 30, 40];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrevious = () => {
-      setCurrentIndex((index) => index - 1);
+    setCurrentIndex((index) => {
+      return index - 1;
+    });
   };
 
   const handleNext = () => {
-      setCurrentIndex((index) => index + 1);
+    setCurrentIndex((index) => {
+      return index + 1;
+    });
   };
 
   return (
